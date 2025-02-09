@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header Navigation */
+        header {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffdd57;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+        .nav-links a:hover {
+            background: #ffdd57;
+            color: #333;
+            transform: scale(1.1);
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 50px;
+            text-align: center;
+            margin-top: 80px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Booking Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #ff6f61;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #ff3b3b;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ruthra Velan M</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc6aLz3KVoS8v_ymsEI_l388ixUBZdi9Lgp_ay2LlpcsQySuA/viewform?embedded=true" width="640" height="1577" frameborder="0" marginheight="0" marginwidth="0">Book</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Online Webpage Creation Service</h1>
+        <h1>About Me</h1>
+            <p>
+                <p>💡 My expertise includes:</p>
+                <p>Web Designing with AI
+                    HTML, CSS, and JavaScript</p>
+                <p> I am always eager to learn, explore new technologies, and build projects that make an impact. Let's connect and bring ideas to life! 🚀</p>  
+                    <!-- Machine Learning & Artificial Intelligence -->
+                   </p>
+                    <p>I deliver professional and responsive websites within 48 hours at an affordable price.</p>
+                    <p> Here by I included my Projects:
+                        Project On
+                        <a href="https://courier-service-2425.github.io/PJ-24-Hour-Courier-Service/courier%20service.html " style="overflow: none;">24 hour Courier service </a>
+                    </p>
+    </section>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <p>👋 Hi, I'm Ruthra Velan M, an AI & Web Development Enthusiast. I specialize in blending AI with web technologies to build intelligent solutions. Currently pursuing my Bachelor of Engineering (B.E.) at PSNA College of Engineering and Technology,Dindigul. I specialize in blending AI with modern web technologies to create innovative and intelligent web solutions.
+        </p>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Email: warriorforever006@gmail.com</p>
+        <p>Phone: 6381611575</p>
+        <p>Call between 6:00 PM - 7:00 PM</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Web Creation Service . All rights reserved.</p>
+    </footer>
+</body>
+</html>
